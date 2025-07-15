@@ -29,25 +29,31 @@ body {
   position: fixed;
   top: 0;
   bottom: 0;
-  width: 80px;
+  width: 80px; /* largeur de la colonne */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   z-index: 1000;
-  pointer-events: none;
+  pointer-events: none; /* pour que les gifs ne bloquent pas les clics */
+  background: none;
 }
+
 .left-bar {
   left: 0;
 }
+
 .right-bar {
   right: 0;
 }
+
 .side-gif {
-  width: 60px;
+  width: 60px; /* adapte la taille selon tes gifs */
   margin: 18px 0;
   display: block;
 }
+
+/* Pour cacher les barres sur mobile */
 @media (max-width: 700px) {
   .gifs-bar {
     display: none;
