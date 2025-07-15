@@ -15,6 +15,11 @@ body {
   box-sizing: border-box;
 }
 
+.side-gif {
+  width: 80px;   /* ou la taille souhaitée, par exemple 80px */
+  height: auto;  /* garde le ratio, ou mets une valeur fixe si tu veux */
+}
+
 .container {
   display: flex;
   flex-direction: column;
