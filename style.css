@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background: #6c0871 url('paillette.gif') repeat;
+  background: #470026 url('paillette.gif') repeat;
   /* le gif va se répéter horizontalement et verticalement */
   display: flex;
   flex-direction: column;
