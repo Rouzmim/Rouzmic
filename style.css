@@ -8,8 +8,9 @@ body {
   align-items: center;
   justify-content: flex-start;
   font-family: 'Calibri', Arial, sans-serif;
-  box-sizing: border-box;
+  color: #fff;
   position: relative;
+  box-sizing: border-box;
 }
 
 .container {
@@ -17,87 +18,95 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 700px;
+  max-width: 850px;
   margin: 0 auto;
-  padding: 50px 15px 90px 15px;
+  padding: 60px 15px 120px 15px;
 }
 
 .titre {
   color: #fff;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: bold;
   text-align: center;
-  letter-spacing: 0.03em;
   margin-bottom: 10px;
   line-height: 1.1;
   font-family: 'Calibri', Arial, sans-serif;
   white-space: nowrap;
+  letter-spacing: 0.01em;
 }
 
 .en-avance {
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 2rem;
   font-style: italic;
-  margin-bottom: 30px;
+  margin-bottom: 34px;
   text-align: center;
   font-family: 'Calibri', Arial, sans-serif;
 }
 
 .photo {
   display: block;
-  max-width: 380px;
-  width: 90vw;
+  max-width: 420px;
+  width: 95vw;
   height: auto;
   border-radius: 50%;
-  margin: 0 auto 40px auto;
+  margin: 0 auto 44px auto;
   box-shadow: none;
   border: none;
+  background: none;
 }
 
 .italique {
   color: #fff;
-  font-size: 2.1rem;
+  font-size: 2.7rem;
   font-style: italic;
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 40px;
   font-family: 'Calibri', Arial, sans-serif;
 }
 
 .texte-blanc {
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 2.1rem;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 28px;
+  margin-bottom: 32px;
   font-family: 'Calibri', Arial, sans-serif;
 }
 
 .signature {
   position: fixed;
-  left: 0; right: 0; bottom: 24px;
+  left: 0; right: 0; bottom: 30px;
   width: 100%;
   text-align: center;
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-family: 'Calibri', Arial, sans-serif;
   opacity: 0.9;
   pointer-events: none;
   z-index: 10;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .titre {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     white-space: normal;
   }
+  .en-avance {
+    font-size: 1.2rem;
+  }
   .italique {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
   .texte-blanc {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .photo {
-    max-width: 95vw;
+    max-width: 98vw;
     margin-bottom: 20px;
+  }
+  .signature {
+    font-size: 1.1rem;
+    bottom: 10px;
   }
 }
