@@ -111,6 +111,15 @@ body {
   font-family: 'Calibri', Arial, sans-serif;
 }
 
+.oups {
+  color: #ff0080;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: 'Calibri', Arial, sans-serif;
+}
+
 .signature {
   position: fixed;
   left: 0; right: 0; bottom: 30px;
