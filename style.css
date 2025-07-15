@@ -4,7 +4,7 @@ body {
   min-height: 100vh;
   background: #470026 url('paillette.gif') repeat;
   /* le gif va se répéter horizontalement et verticalement */
-  background-size: 60px 60px; /* le gif sera affiché en petit et dupliqué partout */
+  background-size: 300px 300px; /* le gif sera affiché en petit et dupliqué partout */
   display: flex;
   flex-direction: column;
   align-items: center;
