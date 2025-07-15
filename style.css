@@ -97,16 +97,15 @@ body {
   font-size: 4rem;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 15px;
   font-family: 'Calibri', Arial, sans-serif;
   color: #fff; /* Jaune vif */
   letter-spacing: 0.07em;
   /* Effet d'ombre multicolore */
   text-shadow:
-    2px 2px 0 #ff5722,   /* ombre orange */
-    4px 4px 0 #2196f3,   /* ombre bleue */
     6px 6px 0 #4caf50,   /* ombre verte */
     8px 8px 8px #000;    /* ombre noire diffuse */
-  transform: skew(-13deg, -5deg) rotate(-3deg); /* déformation style WordArt */
+  transform: skew(-13deg, -5deg) rotate(-2deg); /* déformation style WordArt */
   background: linear-gradient(90deg, #ffeb3b 0%, #ff5722 50%, #2196f3 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
